@@ -5,7 +5,7 @@ Write-Host '[-] UndMShell v0.1 | Coded by Abdullah AlZahrani | GitHub.com/0xAbdu
 
 # Check if PS2EXE module is installed.
 if (!(Get-Module -ListAvailable -Name 'ps2exe')) {
-    Write-Host "[!] PS12EXE module does not exist."
+    Write-Host "[!] PS2EXE module does not exist."
     Write-Host "[!] 1) Run powersehll as Administrator."
     Write-Host '[!] 2) Install-Module ps2exe'
     Break
