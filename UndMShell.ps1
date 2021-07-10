@@ -3,7 +3,7 @@
 # https://antiscan.me/scan/new/result?id=uKE1Uhhi9drE
 Write-Host '[-] UndMShell v0.1 | Coded by Abdullah AlZahrani | GitHub.com/0xAbdullah'
 
-# Check if PS12EXE module is installed.
+# Check if PS2EXE module is installed.
 if (!(Get-Module -ListAvailable -Name 'ps2exe')) {
     Write-Host "[!] PS12EXE module does not exist."
     Write-Host "[!] 1) Run powersehll as Administrator."
